@@ -1,0 +1,35 @@
+.slider-container {
+    position: relative;
+    width: 500px;
+    height:300px;
+    margin: 0 auto; 
+    margin-top: 20px ;
+  }
+  
+  .slider-image {
+    
+    width: 500px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .slider-button-left {
+    left: 20px;
+  }
+  
+  .slider-button-right {
+    right: 20px;
+  }
+  
